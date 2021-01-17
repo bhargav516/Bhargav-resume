@@ -246,9 +246,9 @@
 
 \newcommand{\twentyitem}[4]{%
 	#1&\parbox[t]{0.83\textwidth}{%
-		\textbf{#2}%
+		\textbf{\large #2}%
 		\hfill%
-		{\footnotesize#3}\\%
+		{#3}\\%
 		#4\vspace{\parsep}%
 	}\\
 }
